@@ -1,0 +1,17 @@
+{
+	"name": "mavlink-web-serial-dashboard",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"mounts": [
+		"source=${localWorkspaceFolder},target=/app,type=bind,consistency=cached"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Vue.volar",
+				"bradlc.vscode-tailwindcss"
+			]
+		}
+	}
+}
